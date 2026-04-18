@@ -1,3 +1,5 @@
+from sentence_transformers import SentenceTransformer
+#CHUNKER
 def chunk_text(text, chunk_size=100, overlap=20):
     words = text.split()
     l = len(text)
@@ -11,4 +13,14 @@ def chunk_text(text, chunk_size=100, overlap=20):
 
     return chunk_list
 
-print(chunk_text("hello i am wasu, i hfa h ga hgihew jig wj iwj fiw fjwi fjweijf ij iwj fijwifj weifjwiej fiwejfiwejf sdnkdnf ksdjfk jsd kfjsdkfj fkds jfksdj fksjdfkjsdfkjsdhs hbfhds fhsdhj fsjhf js fjds fkje kj kjs kjds kjsd kjsd ksd ksd g g  g g g g g  g g g g g g g  g g g g g g g g g g g g g g g g  g g g g g g g g g g g g g g ", 100, 20))
+#EMBEDDER
+def embedder(sentences):
+    model=SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+    embeddings = model.encode(sentences)
+    return embeddings
+
+
+#VECTOR STORE
+def retieve(query, chunks, embeddings, model=SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2"), top_k=3):
+    embedded_query = embedder(query)
+
