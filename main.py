@@ -1,4 +1,5 @@
 from sentence_transformers import SentenceTransformer
+import numpy as np
 #CHUNKER
 def chunk_text(text, chunk_size=100, overlap=20):
     words = text.split()
@@ -21,6 +22,10 @@ def embedder(sentences):
 
 
 #VECTOR STORE
-def retieve(query, chunks, embeddings, model=SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2"), top_k=3):
+def retieve(query, chunks, embeddings, top_k=3):
     embedded_query = embedder(query)
-
+    scores = [
+        np.dot(embedded_query, emb)/(np.linalg.norm(embedded_query)*np.linalg.norm(emb)) for emb in embeddings
+    ]
+    indices = np.argsort(scores)[::-1]
+    return [chunks[i] for i in indices[:top_k]]
