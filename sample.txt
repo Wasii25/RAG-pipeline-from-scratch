@@ -1,0 +1,27 @@
+Japan is utilizing piezoelectric technology to convert human footfall into electricity, particularly in high-traffic areas like Shibuya Station. Special piezoelectric tiles placed in floors generate electrical charges from the kinetic energy of footsteps, powering systems like LED lights and automated gates. [1, 2, 3]  
+How It Works: 
+
+• Piezoelectric Material: When pressed, certain materials (integrated into flooring) produce an electric charge due to mechanical stress, according to Instructables and the SciTechnol article. 
+• High-Traffic Utilization: While one step produces minimal power, the millions of daily commuters in locations like Tokyo’s Shibuya Station generate a significant amount of electricity, say the PrimeVideoIN Facebook post and Instagram post. [1, 2, 4, 5, 6]  
+
+This video explains how the piezoelectric tiles are used to generate electricity from footsteps: 
+Key Advantages & Challenges: 
+
+• Renewable Energy: Contributes to smarter, more sustainable urban environments and public awareness of green energy, notes the  Instagram post 
+ and TacoBellUKI Facebook post. 
+• Challenges: High installation costs, limited output, and maintenance requirements for durability in heavy traffic, as highlighted by Parametric Architecture. [1, 3, 7]  
+
+These piezoelectric systems, while not yet capable of replacing traditional power sources, are being developed as an innovative, sustainable technology to power small infrastructure needs in cities, as described in the Element14 blog. [2, 3, 8]  
+
+AI can make mistakes, so double-check responses
+
+[1] https://www.facebook.com/PrimeVideoIN/posts/japan-is-transforming-footsteps-into-electricity-4-by-using-piezoelectric-tiles-/1370025091820880/
+[2] https://timesofindia.indiatimes.com/etimes/trending/how-japan-is-changing-footsteps-into-electricity/articleshow/115922458.cms
+[3] https://www.facebook.com/TacoBellUKI/posts/japan-is-turning-footsteps-into-electricity-using-piezoelectric-tiles-every-step/1344756617690817/
+[4] https://www.instagram.com/reel/DVK1rL8EiWr/
+[5] https://www.scitechnol.com/peer-review/generation-of-electricity-using-footstep-power-z0Uo.php?article_id=19806
+[6] https://www.instructables.com/Electricity-from-walking/
+[7] https://parametric-architecture.com/japan-turning-footsteps-electricity/
+[8] https://community.element14.com/technologies/power-management/b/blog/posts/japan-s-sidewalks-converts-human-footsteps-into-useable-electricity
+
+
